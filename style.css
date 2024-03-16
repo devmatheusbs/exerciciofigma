@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat_bold;
+    src: url("assets/Montserrat/Montserrat-Bold.ttf");
+}
+
+body{
+    background-color: black;
+}
+.imagem_fundo{
+    background-image: url("assets/background_semBotao.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.botao_projetos{    
+    background-color: #07EA02;
+    height: 99px;
+    width: 560px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 4px 8px black;
+    font-family: Montserrat_bold; 
+    cursor:pointer;   
+}
+div{
+    
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+    margin-left: 250px;
+
+}
